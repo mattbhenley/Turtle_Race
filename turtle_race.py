@@ -51,19 +51,20 @@ green.pendown()
 for turn in range(60):
   green.right(6)
 
-yellow = Turtle()
-yellow.shape('turtle')
-yellow.color('turquoise')
+turquoise = Turtle()
+turquoise.shape('turtle')
+turquoise.color('turquoise')
 
-yellow.penup()
-yellow.goto(-160, 10)
-yellow.pendown()
+turquoise.penup()
+turquoise.goto(-160, 10)
+turquoise.pendown()
 
 for turn in range(30):
-  yellow.left(12)
+  turquoise.left(12)
+
 
 for turn in range(100):
   red.forward(randint(1, 5))
   blue.forward(randint(1, 5))
   green.forward(randint(1, 5))
-  yellow.forward(randint(1, 5))
+  turquoise.forward(randint(1, 5))
